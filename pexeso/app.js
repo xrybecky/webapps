@@ -1,3 +1,7 @@
+setEventHandlers = function(){
+	io.socket.on("connection", onSocketConnection);
+};
+
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
@@ -9,5 +13,17 @@ app.get('/', function(req, res){
 
 app.use('/client', express.static(__dirname + '/client'));
 
-server.listen(2000);
-console.log("listening on 2000");
+io.on('connection', function(socket){
+	console.log('user connected');
+	socket.on('message', function(m){
+			console.log('' + m);
+	});
+	
+	socket.on('disconnect', function(){
+		console.log('user disconnected');
+	});
+});
+
+server.listen(2000, function(){	
+	console.log("listening on 2000");
+});

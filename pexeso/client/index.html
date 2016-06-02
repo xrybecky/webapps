@@ -5,6 +5,16 @@
 		<title>PEXESO</title>
 	</head>
 	<body>
-		<h1>HELLO WORLD!</h1>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io();
+			
+			function sendM(){
+				socket.emit('message', 'msg');
+			}
+				
+			
+		</script>
+		<button id="send" onclick="sendM()">Message</button>
 	</body>
 </html>
