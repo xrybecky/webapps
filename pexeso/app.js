@@ -2,6 +2,7 @@ setEventHandlers = function(){
 	io.socket.on("connection", onSocketConnection);
 };
 
+var jquery = require('jquery');
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
@@ -15,8 +16,9 @@ app.use('/client', express.static(__dirname + '/client'));
 
 io.on('connection', function(socket){
 	console.log('user connected');
+	
 	socket.on('message', function(m){
-			console.log('' + m);
+			console.log('message ' + m);
 	});
 	
 	socket.on('disconnect', function(){

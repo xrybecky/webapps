@@ -2,19 +2,32 @@
 
 <html>
 	<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<title>PEXESO</title>
 	</head>
 	<body>
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
-			var socket = io();
-			
-			function sendM(){
-				socket.emit('message', 'msg');
-			}
+		
+			$(function(){
+				var socket = io();
 				
+				function sendMessage(msg){
+					socket.emit('message', msg);
+					$("#msg-input").val("");
+				}
+				
+				$("form").submit(function(){
+					sendMessage($("#msg-input").val());					
+					return false;
+				});
+			});
 			
+				
 		</script>
-		<button id="send" onclick="sendM()">Message</button>
+		<form action="">
+			<input type="text" id="msg-input" placeholder="Type in your message...">
+			<button id="send">Message</button>
+		</form>
 	</body>
 </html>
