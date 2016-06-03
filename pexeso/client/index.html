@@ -8,26 +8,100 @@
 	<body>
 		<script src="/socket.io/socket.io.js"></script>
 		<script>
-		
+			var username;
+			var socket;
+			
+			function joinRoom(key){
+				socket.emit('join room', key);
+			}
+			
+			function sendMessage(msg){
+				socket.emit('message', msg);
+			}
+			
+			function createRoom(room){
+				socket.emit('new room', room);
+			}
+			
 			$(function(){
-				var socket = io();
 				
-				function sendMessage(msg){
-					socket.emit('message', msg);
-					$("#msg-input").val("");
-				}
+				$("#login-form").submit(function(){
+					username = $("#login-input").val();
+					$("#login-container").hide();
+					$("#rooms").show();
+
+					socket = io();
+					
+					socket.on('message', function(m){
+						console.log("*"+m);
+					});
 				
-				$("form").submit(function(){
-					sendMessage($("#msg-input").val());					
+					socket.on('avb rooms', function(rooms){
+						console.log(rooms);
+						$("#room-list").empty();
+						$.each(rooms, function(key, value){		
+							if(value.num_users < 2)
+								$("#room-list").append("<p>#"+ key +" > "+ value.roomname +" > "+ value.num_users +"</p>" +
+													   "<button onclick=\"joinRoom("+key+")\">Connect</button>");
+						});
+					});
+					
+					socket.on('room info', function(msg){
+						console.log(msg);
+					});
+					
+					socket.on('joined', function(status){
+						console.log("join status > " + status);
+						if(status == '1'){
+							//start game
+						}else{
+							//room is full
+						}
+					});
+					
+					socket.emit('new user', username);
+					return false;
+				});	
+								
+				$("#msg-form").submit(function(){
+					sendMessage($("#msg-input").val());		
+					$("#msg-input").val("");			
 					return false;
 				});
+				
+				$("#create-room-form").submit(function(){
+					createRoom($("#room-input").val());
+					$("#room-input").val("");		
+					return false;
+				});
+				
+				
+				
 			});
 			
 				
 		</script>
-		<form action="">
-			<input type="text" id="msg-input" placeholder="Type in your message...">
-			<button id="send">Message</button>
-		</form>
+		<div id="login-container">
+			<form id="login-form" action="">
+				<input type="text" id="login-input" placeholder="Type in your name...">
+				<button>Go!</button>
+			</form>
+		</div>
+		
+		<div id="msg-container" hidden>
+			<form id="msg-form" action="">
+				<input type="text" id="msg-input" placeholder="Type in your message...">
+				<button>Message</button>
+			</form>
+		</div>
+		
+		<div id="rooms" hidden>
+			<form id="create-room-form" action="">
+				<input type="text" id="room-input" placeholder="Type in your room...">
+				<button>Message</button>
+			</form>
+			<div id="room-list">
+			</div>
+		</div>
 	</body>
 </html>
