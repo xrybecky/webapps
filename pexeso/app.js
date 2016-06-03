@@ -2,6 +2,7 @@ setEventHandlers = function(){
 	io.socket.on("connection", onSocketConnection);
 };
 
+var users = new Array();
 var openedRooms = new Array();
 
 var jquery = require('jquery');
@@ -18,14 +19,12 @@ app.get('/', function(req, res){
 app.use('/client', express.static(__dirname + '/client'));
 
 io.on('connection', function(socket){
-	console.log('user connected');
-	
 	socket.on('new user', function(username){
-		console.log('new user > ' + username);
-		socket.username = username;
-		socket.room = 'default';
-		socket.join(socket.room);
-		io.to(socket.room).emit('avb rooms', openedRooms);
+		console.log('new user connected > ' + username);
+			socket.username = username;
+			socket.room = 'default';
+			socket.join(socket.room);
+			io.to(socket.room).emit('avb rooms', openedRooms);
 	});
 	
 	socket.on('new room', function(room){
@@ -67,7 +66,7 @@ io.on('connection', function(socket){
 	});
 	
 	socket.on('disconnect', function(){
-		console.log('user '+ socket.username +'disconnected');
+		console.log('user '+ socket.username +' disconnected');
 	});
 });
 

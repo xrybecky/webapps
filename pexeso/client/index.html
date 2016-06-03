@@ -2,8 +2,27 @@
 
 <html>
 	<head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<title>PEXESO</title>
+		
+		<style>
+			#login-container{
+				margin-top:150px;
+			}
+			
+			.btn-full-width{
+				width:100%;
+				margin-top:10px;
+			}
+			
+			#msg-container{
+				margin:5px 0px 5px 0px;
+				border-bottom: 1px solid #DDDDDD;
+				z-index:999;
+				background-color: rgba(255,255,255,0.5);
+			}
+		</style>
 	</head>
 	<body>
 		<script src="/socket.io/socket.io.js"></script>
@@ -38,11 +57,16 @@
 				
 					socket.on('avb rooms', function(rooms){
 						console.log(rooms);
-						$("#room-list").empty();
+						$("#room-list > table > tbody").empty();
 						$.each(rooms, function(key, value){		
 							if(value.num_users < 2)
-								$("#room-list").append("<p>#"+ key +" > "+ value.roomname +" > "+ value.num_users +"</p>" +
-													   "<button onclick=\"joinRoom("+key+")\">Connect</button>");
+								$("#room-list > table > tbody")
+									.append("<tr>" +	
+												"<td>"+key+"</td>" + 
+												"<td>"+value.roomname+"</td>" + 
+												"<td>"+value.num_users+"</td>" + 
+												"<td><button class=\"btn btn-default\" onclick=\"joinRoom("+key+")\">Connect</button></td>" + 
+											"</tr>");			   
 						});
 					});
 					
@@ -53,7 +77,8 @@
 					socket.on('joined', function(status){
 						console.log("join status > " + status);
 						if(status == '1'){
-							//start game
+							$("#rooms").hide();
+							$("#msg-container").show();
 						}else{
 							//room is full
 						}
@@ -71,37 +96,61 @@
 				
 				$("#create-room-form").submit(function(){
 					createRoom($("#room-input").val());
-					$("#room-input").val("");		
+					$("#room-input").val("");
+					$("#rooms").hide();
+					$("#msg-container").show();
+					//start game
 					return false;
 				});
 				
-				
-				
 			});
-			
-				
 		</script>
-		<div id="login-container">
-			<form id="login-form" action="">
-				<input type="text" id="login-input" placeholder="Type in your name...">
-				<button>Go!</button>
-			</form>
-		</div>
-		
-		<div id="msg-container" hidden>
-			<form id="msg-form" action="">
-				<input type="text" id="msg-input" placeholder="Type in your message...">
-				<button>Message</button>
-			</form>
-		</div>
-		
-		<div id="rooms" hidden>
-			<form id="create-room-form" action="">
-				<input type="text" id="room-input" placeholder="Type in your room...">
-				<button>Message</button>
-			</form>
-			<div id="room-list">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="login-container">
+						<div class="row">
+							<div class="col-md-4 col-md-offset-4">
+								<form id="login-form" action="">
+									<input type="text" id="login-input" class="form-control" placeholder="Type in your name...">
+									<button class="btn btn-default btn-full-width">Go!</button>
+								</form>
+							</div>
+						</div>	
+					</div>
+					<div id="rooms" hidden>
+						<div class="row">
+							<div class="col-md-3">
+								<form id="create-room-form" action="">
+									<input type="text" id="room-input" class="form-control" placeholder="Type in your room...">
+									<button class="btn btn-default btn-full-width">Create</button>
+								</form>
+							</div>
+							<div id="room-list" class="col-md-8">
+								<table class="table">
+									<thead>
+										<tr><td>#</td><td>Room</td><td>Players</td></tr>
+									</thead>
+									<tbody>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div id="msg-container" hidden>
+						<div class="row">
+							<form id="msg-form" action="">
+								<div class="col-md-3">
+									<input type="text" id="msg-input" class="form-control" placeholder="Type in your message...">
+								</div>
+								<div class="col-md-1">
+									<button class="btn btn-default">Message</button>
+								</div>
+							</form>
+						</div>						
+					</div>
+				</div>
 			</div>
-		</div>
+		</div>		
 	</body>
 </html>
