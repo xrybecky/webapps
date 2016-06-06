@@ -1,0 +1,12 @@
+id_person;id_role;name;surname;login;passwd;points;status;group
+1;2;Peter;Hochschorner;peter;stu123stu;;;1
+2;2;Pavol;Hochschorner;pavol;stu123stu;;;1
+3;2;Elena;Kaliská;elena;stu123stu;;;1
+4;2;Anastasiya;Kuzmina;nasta;stu123stu;;;1
+5;2;Michal;Martikán;michal;stu123stu;;;1
+6;2;Ondrej;Nepela;ondrej;stu123stu;;;2
+7;2;Jozef;Pribilinec;jozef;stu123stu;;;2
+8;2;Anton;Tkáè;anton;stu123stu;;;2
+9;2;Ján;Zachara;jano;stu123stu;;;2
+10;2;Július;Torma;julo;stu123stu;;;2
+11;1;Miloslav;Meèíø;milo;stu123stu;;;

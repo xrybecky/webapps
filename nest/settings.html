@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Nastavenia | NEST </title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+    
+	<!--Knockout-->
+	<script type='text/javascript' src='knockout-3.3.0.js'></script>
+	
+  </head>
+  <body>
+    <h1>Nastavenia</h1>
+	
+	<div class="row">
+	<div class="setting-panel col-md-2">
+		<div class="col-md-offset-1">
+	
+			<div class="col-md-offset-1"><img src="foto.jpg" width="70px" height="80px" alt="zmena loga"><br></div>
+				<label><span class="fileInput glyphicon glyphicon-cog" aria-hidden="true">Zmeniť logo</span>
+				<input style="display:none" type="file">
+				</label>
+				
+			<div class="col-md-offset-1"><img src="foto.jpg" width="70px" height="80px" alt="zmena loga"><br></div>
+				<label><span class="fileInput glyphicon glyphicon-cog" aria-hidden="true">Zmeniť pozadie</span>
+				<input style="display:none" type="file">
+				</label>
+				
+				<label>Názov miestnosti
+				<input id="postText" type="text" class="form-control" placeholder="Názov ..." value="">
+				</label><br><br>
+				
+				<label>Adresa miestnosti
+				<input id="postText" type="text" class="form-control" placeholder="/adresa ..." value="">
+				</label><br><br>
+				
+				<label>Popis
+				<input id="postText" type="text" class="form-control" placeholder="Popis ..." value="">
+				</label><br><br>
+				
+				<a href="index.html"><button class="btn btn-warning">Naspäť</button></a>
+		</div>
+	</div>
+		
+		<div class="col-md-offset-1">
+		<table class="panel-warning">
+		<thead class="panel-heading">
+			<tr><th class="col-md-1"><h4 >Avatar</h4></th>
+				<th class="col-md-2"><h4 >Meno</h4></th>
+				<th class="col-md-3"><h4>Oprávnenia v miestnosti</h4></th>
+			</tr>
+		</thead>
+		<tbody class="panel-body">
+			<tr class="user-list"><td class="col-md-1"><img src="foto.jpg" width="50px" height="50px" alt="avatar"></td>
+				<td class="col-md-2">Meno</td>
+				<td class="col-md-3">
+					<select class="form-control">
+						<option>none</option>
+						<option>read</option>
+						<option>edit</option>
+						<option>manage</option>
+					</select>
+				</td>
+			</tr>
+			
+		</tbody>
+		</table>
+		</div>
+	
+		</div>
+	</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

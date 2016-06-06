@@ -1,0 +1,29 @@
+.chart{
+	width: 450px;
+	height: 300px;
+}
+
+.graph-container{
+	margin-top:230px;
+}
+
+.jumbotron{
+	border-radius: 10px;
+	height: 70px;
+}
+
+input{
+	border:none;
+	opacity:0.8;
+	transition: box-shadow 1s linear;
+}
+
+input:hover{
+	box-shadow: 0px 0px 10px #f0ad4e;
+}
+
+input:focus{
+	border:none;
+	box-shadow: 0px 0px 10px #f0ad4e;
+}
+

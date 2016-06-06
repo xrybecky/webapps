@@ -1,0 +1,69 @@
+body{
+	background-color:#1C1C1C;
+	overflow-x:hidden;
+}
+
+.hidden {
+     display:none;
+}
+
+.form-control, .btn{
+	margin: 10px;
+	background: rgba(0, 0,0, .5);
+	
+}
+
+input{transition:background 0.3s linear;color:white;}
+
+input:focus, select:focus{
+	background-color:white;
+	color:black;
+	box-shadow:none;	
+}
+
+.btn{
+	border:1px solid #1BC98E;
+	color:#1BC98E;
+}
+
+.btn:hover{
+	background-color:#1BC98E;
+	border:1px solid #1BC98E;
+	color:white;
+}
+
+.table{
+	color:white;
+}
+
+th{
+	color:#1BC98E;
+}
+
+label{
+	color:white;
+}
+
+li{
+	border-bottom:3px solid black;
+}
+
+li:hover{
+	border-bottom:3px solid #1BC98E;
+}
+
+li:focus{
+	border-bottom:2px solid #1BC98E;
+}
+
+#myDiv{
+	color:white;
+}
+
+#api-container{
+	color:white;
+}
+
+h4{
+	color:#1BC98E;
+}

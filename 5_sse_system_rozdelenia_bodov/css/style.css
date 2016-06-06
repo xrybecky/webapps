@@ -1,0 +1,146 @@
+body{
+	font-family:Segoe UI;
+	background-color: #E9E9E9;
+}
+
+h3{
+	color:#4285f4;
+}
+
+h4{
+	color:white;
+}
+
+
+.header{
+	color:black;
+	font-size:17px;
+	padding-top:20px;
+	padding-left:12px;
+	height:60px;
+	background-color:white;
+}
+
+.logout-right{
+	text-align:right;
+	margin-right:0px;
+	padding-right:10px;
+	border-right:1px solid black;
+}
+
+.team-info{
+	border-left:1px solid black;
+	text-align:left;
+	padding-left:10px;
+}
+
+.login{
+	margin-top:10%;
+}
+
+.adminButtons{
+	display: inline;
+}
+
+table{
+	border-collapse: collapse;
+	width:90%;
+	margin:0 auto;
+}
+
+
+tr{
+	border-radius: 10px;
+	background-color:white;
+	transition: background-color 0.3s linear;
+}
+
+td{
+	height:20px;
+	border-bottom:1px solid #DCDCDC;
+	text-align: left;
+	padding: 5px 15px;
+}
+
+th{
+	font-weight:normal;
+	background-color:#646464;
+	text-align: left;
+	padding: 5px 15px;
+	transition:background-color 0.3 linear;
+	color:white;
+}
+
+
+
+tr:hover{
+	background-color:#DCDCDC;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+a:hover{
+	color:black;
+	text-decoration:underline;
+}
+
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+input,button{
+	display: block;
+	width: 80%;
+	margin:10px auto;
+	padding: 5px;
+	font-size: 14px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	transition:box-shadow 0.2s linear,width 0.3s linear,background-color 0.3s linear, color 0.3s linear
+}
+
+button {
+	border:none;
+	color:#4285f4;
+	font-size:16px;
+}
+
+#buttonBox{
+	margin-top:20px;
+}
+
+input:hover{
+	width:100%;
+	background-color:white;
+	color:black;
+}
+
+input:focus{
+	width:100%;
+	box-shadow:5px 5px 5px #888888;
+}
+
+button:hover{
+	width:100%;
+	cursor:pointer;
+	background-color:#4285f4;
+	color:white;
+}
+
+.team-table{
+	margin-top:10px;
+	padding-bottom:10px;
+	background-color:#4285f4;
+	box-shadow:0px 0px 10px #4285f4;
+}
+
+.ask-cpt{
+	text-align:center;
+}
+
+

@@ -1,0 +1,28 @@
+.counts{
+    margin-bottom:7px;
+	}
+	
+	body{
+	background-image:url('../back.png');
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	}
+	
+	.fileInput{
+	width:20px;
+	height:20px;
+	}
+	
+	.fileInput:hover{
+		cursor:pointer;
+	}
+	
+	.user-list{
+		padding:3px 0 3px 0;
+		border-bottom:1px solid orange;
+	}
+	
+	.setting-panel{
+	border-right:1px solid orange;
+	}

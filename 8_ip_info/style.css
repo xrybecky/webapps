@@ -1,0 +1,101 @@
+.container-fluid{
+	margin-left:25px;
+}
+
+.weather-day{
+	//box-shadow: 0px 0px 8px #DDDDDD;
+	border-left:2px solid #4285f4;
+	margin:10px 10px;
+	max-width:200px;
+	min-height:200px;
+}
+
+.day-cond, .day-icon, .day-temp{
+	width:100%;
+	padding:10px;
+}
+
+.wind{
+	margin-top:-20px;
+}
+
+.day-cond{
+	font-weight:bold;
+}
+
+.day-temp{
+	font-size:130%;
+}
+
+.day-weekday,.day-date{
+	//background-color:;
+	margin-left:10px;
+	color:#4285f4;
+}
+
+.day-weekday{
+	font-weight:bold;
+	margin-top:5px;
+}
+
+.weather-container{
+	//box-shadow: 0px 0px 8px #FFFFFF;
+	border-left:2px solid #4285f4;
+	margin-top:20px;
+	background-color:#FFFFFF;
+	
+}
+
+.main-weather{
+	margin:10px 0px;
+}
+
+.weather-header-child{
+	color:#4285f4;
+	padding-bottom:10px;
+}
+
+.weather-body{
+	margin-top:20px;
+}
+
+.centered{
+	text-align:center;
+}
+
+.main-temp{
+	font-size: 300%;
+}
+
+/*	***	ipinfo.php ***  */
+
+.table{
+	color:#4285f4;
+	/*
+	border:5px solid #EEEEEE;
+	border-radius:50px;*/
+}
+
+th{
+	color:white;
+	font-weight:bold;
+	background-color:#4285f4;
+}
+
+.table-flag{
+	width:50px;
+	height:35px;
+}
+
+.map{
+	width:100%;
+	height:300px;
+}
+
+.table{
+	font-size:80%;
+}
+
+body{
+	background-color:#EFEFEF;
+}

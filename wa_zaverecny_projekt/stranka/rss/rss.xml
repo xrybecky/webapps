@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Aktuality z WA ;)</title>
+		<link>147.175.98.229/projekt/git/</link>
+		<lastBuildDate>29.5.2016</lastBuildDate>
+		<managingEditor>rybeckyv@gmail.com</managingEditor>
+		<description>Všetko čo sa môže na svete stať nájdete u nás</description>
+		
+		<item>
+			<title>Counter Strike</title>
+			<link>147.175.98.229/projekt/git/aktuality.php</link>
+			<pubDate>30.5.2016</pubDate>
+			<description>Counter-Strike (skratka CS) je 3D počítačová hra.</description>
+			<author>jakub.hunady@gmail.com</author>
+			<source>Aktuality z WA ;)</source>
+		</item>
+		<item>
+			<title>Bicykel</title>
+			<link>147.175.98.229/projekt/git/aktuality.php</link>
+			<pubDate>29.5.2016</pubDate>
+			<description>Bicykel je dopravný prostriedok poháňaný pedálmi.</description>
+			<author>jakub.hunady@gmail.com</author>
+			<source>Aktuality z WA ;)</source>
+		</item>		
+		<item>
+			<title>Dvere</title>
+			<link>147.175.98.229/projekt/git/aktuality.php</link>
+			<pubDate>29.5.2016</pubDate>
+			<description>Dvere sú zväčša hranaté dosky.</description>
+			<author>jakub.hunady@gmail.com</author>
+			<source>Aktuality z WA ;)</source>
+		</item>		
+		<item>
+			<title>Zelený jačmeň</title>
+			<link>147.175.98.229/projekt/git/aktuality.php</link>
+			<pubDate>29.5.2016</pubDate>
+			<description>Zelený jačmeň nie je liek, a predsa lieči.</description>
+			<author>jakub.hunady@gmail.com</author>
+			<source>Aktuality z WA ;)</source>
+		</item>
+	</channel>
+</rss>

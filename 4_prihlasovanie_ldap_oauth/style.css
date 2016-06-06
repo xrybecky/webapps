@@ -1,0 +1,187 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:15px;
+	background-color: #E9E9E9;
+}
+
+table{
+	color:white;
+}
+
+.logo{
+	height:100%;
+	opacity:0.5;
+}
+
+.no-radius{
+	border-radius:0px;
+}
+
+.login{
+	margin-top:40px:
+}
+
+.registration-form{
+	margin-top:0%;
+}
+
+.reg-link{
+	margin-top:10%;
+}
+
+.form-control,.btn{
+	box-shadow:none;
+	transition:box-shadow 0.2s linear;
+}
+
+.form-control:hover,.btn:hover,.img-google-login:hover,.ldap-login:hover{
+	box-shadow:5px 5px 5px #93EFC1;
+}
+
+.form-control:focus{
+	box-shadow:5px 5px 5px #93EFC1;
+}
+
+.img-google-login{
+	width:100%;
+	transition:box-shadow 0.2s linear;
+}
+
+.img-welcome{
+	width:100%;
+	height:50%;
+	opacity:0.5;
+}
+
+.ldap-login{
+	margin-top:10px;
+	padding:7px;
+	padding-right:25px;
+	text-align:right;
+	color:white;
+	font-weight:bold;
+	width:100%;
+	height:35px;
+	background-color:#3439BC;
+	transition:box-shadow 0.2s linear;
+}
+
+.header{
+	color:black;
+	font-size:17px;
+	padding-top:20px;
+	padding-left:12px;
+	height:60px;
+	background-color:white;
+}
+
+.bg-white{
+	padding:0px;
+	background-color:white;
+}
+
+.bg-white img{
+	padding:0px;
+}
+
+.table{
+	margin-bottom:0px;
+}
+
+.email-padding{
+	padding-left:20px;
+}
+
+
+.button-full-width{
+	width:100%;
+}
+
+.logout-right{
+	text-align:right;
+	margin-right:0px;
+	padding-right:10px;
+	border-right:1px solid black;
+}
+
+.no-border{
+	border:0px solid #888888 !important;
+}
+
+.form-table-cell{
+	color:white;
+	border:0px solid #888888 !important;
+	background-color:#444444;
+}
+
+.ldap-table-cell{color:white;
+	border:0px solid #3439BC !important;
+	background-color:#3439BC;
+}
+
+.google-table-cell{
+	color:white;
+	border:0px solid #E44A33 !important;
+	background-color:#E44A33;
+}
+
+.th-form-table-cell{
+	color:white;
+	border:0px solid #5A5A5A !important;
+	background-color:#212121;
+}
+
+.th-ldap-table-cell{
+	color:white;
+	border:0px solid #171CA6 !important;
+	background-color:#171CA6;
+}
+
+.th-google-table-cell{
+	color:white;
+	border:0px solid #E23115 !important;
+	background-color:#E23115;
+}
+
+.table, tr, td{
+	border:none;
+}
+
+.tr-s{
+	width: 95%;
+	display: inline-table;  
+    table-layout: fixed;
+	margin-left:15px;
+}
+
+.table-s{
+	height: 370px;
+}
+
+.tbody-s{
+	overflow-y: scroll;
+	height: 330px;
+	width: 100%;
+	position: absolute;
+}
+
+.bg-login{
+	background-image:url("src/bg_login.png");
+}
+
+a{
+	color:#96B9F6;
+	text-decoration:none;
+	transition:color 0.3s linear;
+}
+
+
+ a:visited{
+	color:#96B9F6;
+	text-decoration:none;
+}
+
+ a:hover{
+	color:#4285f4;
+	text-decoration:none;
+}

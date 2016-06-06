@@ -1,0 +1,71 @@
+body{
+	background-color:#4285f4;
+}
+
+nav {
+	width:100%;
+	height:200px; 
+	text-align:center;
+	margin-top:200px;
+}
+
+nav li{
+	margin: 50px;
+	display:inline;
+}
+
+nav li a img{
+	width:180px;
+	height:180px;
+	min-width:160px;
+	border:3px solid #4285f4;
+	border-radius: 90px;
+	transition:border 0.7s linear;
+}
+
+nav li a img:hover{
+	border:3px solid white;
+}
+
+section{
+	margin-top:40px;
+}
+
+.home-button{
+	width:100%;
+	height:80px;
+	text-align:center;
+}
+
+.home-button img{
+	width:80px;
+	height:80px;
+	margin-left: auto;
+    margin-right: auto;
+	transition:opacity 1s ease;
+}
+
+.home-button img:hover{
+	opacity:0.5;
+}
+
+#pie{
+	text-align:center;
+	width:100%;
+}
+.pie-chart{
+	display:inline-block;
+	width:30%;
+	height:100%;
+}
+
+.graph{
+	text-align:center;
+}
+
+.white-body{
+	background-color:white;
+}
+
+
+

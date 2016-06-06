@@ -1,0 +1,1121 @@
+commit c52fd002c3e002ac3cb55e6b0c2067f7228b42e6
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 23:07:46 2016 +0200
+
+    posledny fix ?
+
+commit 299a0c01d3a07a7179c9f9db7a422b441cda60a6
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 23:05:34 2016 +0200
+
+    rss ikona
+
+commit 212a74658dffa222c285226e862f6a4b59efd51c
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:58:18 2016 +0200
+
+    update tech.php
+
+commit 6d9ee2978e6df7772079cd058ac02662a6dfe5cb
+Merge: c358c97 9462d47
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:46:32 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit c358c978b51fac51196e8401e3d515ae23de9694
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:45:59 2016 +0200
+
+    uprava index.php
+
+commit 6401639b4771dece23155fec6498362a04e69ad4
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:28:31 2016 +0200
+
+    fonty v index.php
+
+commit d40715e2db7f3427ae25e7e7ddb8ee6a63f86a55
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:26:49 2016 +0200
+
+    welcome page
+
+commit 9462d47f354849d2bec99412aff63dcbbeec3411
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 22:22:29 2016 +0200
+
+    upravene stranky
+
+commit 214ef80b589f6ce3070b6a4a4fb2b40f7cce47b8
+Merge: 13c92d0 6401639
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 22:22:05 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 13c92d007f9ba6b7f5dcecd7c9d6ae3e2d154dbe
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 22:21:42 2016 +0200
+
+    upravene stranky
+
+commit ae9ff92659df7e5f5456806f5ccafab510cb4c92
+Merge: 593bcd5 3a5e089
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:21:32 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 593bcd59d477be4a307831cf9dbd6000db44e45a
+Merge: 1d7a975 82d7bf5
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:15:06 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 3a5e089ea09e003bbb47220f7f361baaa4d6ec00
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 22:14:16 2016 +0200
+
+    upravene stranky
+
+commit 82d7bf5f07f52155f959491214eed511010b569b
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 22:07:34 2016 +0200
+
+    upravene stranky
+
+commit 1d7a975d6cb5782510e9a8a1944584dc988b0e8e
+Merge: 38d92f2 2298383
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 22:00:16 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 22983835ff1115e56bb10abea6589a1c8ea06a25
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:52:56 2016 +0200
+
+    upravene css v statistikach + aktualitach
+
+commit 38d92f23bf221c518d4348fa88465f3cffcb22e3
+Merge: aecedbe a594dd3
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:49:00 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit aecedbe5b47c0568287241ea66d8fef13b3017f3
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:43:43 2016 +0200
+
+    uvod
+
+commit a594dd3e5bb2f010eabf4d290ac06e56ab4f6d72
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:41:32 2016 +0200
+
+    upravene css v statistikach
+
+commit 97037f21b9e3d6ce309fa8ce446a6606477abaac
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:38:55 2016 +0200
+
+    upraveny jazyk v login
+
+commit 361bc90429c8a5b791ec394af51a7de5ca3d00d4
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:36:50 2016 +0200
+
+    upraveny jazyk v login
+
+commit 67d7af9d2789c57b566345fcc8caab6ea4bd0865
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:29:30 2016 +0200
+
+    upraveny login
+
+commit 4a79c07e3bfc3fb3af2b62e5996a85c06500bed0
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:23:51 2016 +0200
+
+    upraveny graf v statistike
+
+commit 1e10186b964a11345bd82c71a91aedd081123614
+Merge: 98af957 b2948a1
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:29:18 2016 +0200
+
+    login dalsi fix push
+
+commit 98af957fd622944eea54072207000dd648b4d38e
+Merge: ca8c4df b2c9702
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:26:58 2016 +0200
+
+    zbytocny fail pri pushy :D
+
+commit ca8c4dfb077678ab88f4040440c255bd13352f50
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:23:25 2016 +0200
+
+    session fix
+
+commit b2948a1af1ef1c6b4100f6bddf3caf5b7b0e9f52
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:17:03 2016 +0200
+
+    upravena login stranka
+
+commit b2c97025cbaaef3534a4d89c97634d7083af6b7f
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:14:24 2016 +0200
+
+    upravena login stranka
+
+commit 7394ec9553ab025bb4a8db003bc763557408ad7a
+Merge: 9e61ab3 e3b9b74
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:10:07 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit e3b9b747eb12202de7d95826ffe01a4c0cfd3d4a
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 21:02:28 2016 +0200
+
+    upravene presmerovanie login stranky + graf statistiky
+
+commit 9e61ab355bc8244553de3c041e0e2a31f9c4c893
+Merge: d2b7e94 4695754
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 21:02:00 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 4695754d104c0eb94ffd403f6ab75b18c5493e3d
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 20:54:21 2016 +0200
+
+    upravene presmerovanie login stranky
+
+commit d2b7e94d1053b796bfcaa7e1193200866870e109
+Merge: 6c91d34 94d7384
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 20:52:31 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 6c91d34cb72e947bac58aac032828df3d50c3dd6
+Merge: 37a146b a04bedf
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 20:49:27 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 37a146baf8354192e4c12b37f8beb5434427ffc4
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 20:49:04 2016 +0200
+
+    update pdf export user
+
+commit 81372899a741119c05b8c383a541aca28e4468cc
+Merge: 405387e f4ab9dc
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 20:46:47 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 94d7384066c2638f8858677258e90bfae1b4e487
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 20:44:06 2016 +0200
+
+    upravene stranky
+
+commit 405387ea1c646bb16daa35b166a7b470b1c4b2b7
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 20:41:46 2016 +0200
+
+    rest update
+
+commit a04bedfff218095e66370643c4c8751fa4de7b20
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 20:41:24 2016 +0200
+
+    upravene stranky
+
+commit f4ab9dc3d70bc34a79391e6eb616ca788c73c3b3
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 20:23:02 2016 +0200
+
+    upravena login stranka
+
+commit 805b731b203a8d0333efb55642c1cf3573e2efd0
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Mon May 30 20:10:45 2016 +0200
+
+    Aktualizovane menu
+    	-pridany odkaz na stránku zo štatistikou (location.php)
+
+commit 819f2c42bb69ac8fee217bc9777caa8eb55d6814
+Merge: a76b612 0176147
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 19:36:11 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit a76b612c52488193b0d385e6036a8505997d4184
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 19:34:53 2016 +0200
+
+    upravy aplikacie
+
+commit 01761476531206b2419d03bafcd85f80f314bb66
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 18:50:58 2016 +0200
+
+    pridana lokalizacia
+
+commit 52d929f52b6061d1ce8f051be34132d47da21cf2
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Mon May 30 18:05:12 2016 +0200
+
+    pridana moznost exportovania JSON RPC do ebooku vo formate EPUB
+
+commit 95e168f6c425e1a7c14964d88ccec86434aa6398
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 10:30:14 2016 +0200
+
+    upravena lokalizacia
+
+commit 949bac3604489d92687fc269dd3846414c198f3d
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 10:11:36 2016 +0200
+
+    upraveny login
+
+commit ffc38431c1044f3999a7334b462b91c9ec4a4a1c
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 10:16:46 2016 +0200
+
+    vymazany login.php
+
+commit 0e99a87c3849481fcf8085ec82feb838cc954cf2
+Merge: dad8c5a ebb0944
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 10:15:08 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit dad8c5a833a1d54ef44474ed24bc10bb6e921c9a
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Mon May 30 10:14:17 2016 +0200
+
+    fix
+
+commit ebb0944fa0bdf95aee417f869bc2cad5ce3e30e2
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 10:07:32 2016 +0200
+
+    upraveny login
+
+commit e434feb4d2d7cc27474e955dae56c97137319167
+Merge: 057c31a 949bac3
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Mon May 30 10:04:24 2016 +0200
+
+    merge aktualit 3 :{
+
+commit 057c31a134fa5517af0d8c042d1a8b350057ecc3
+Merge: 91be263 18d18ef
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Mon May 30 10:02:09 2016 +0200
+
+    merge aktualit 2
+
+commit bb21d4682116e5c88eedf730857099f2b5cbed56
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 09:56:20 2016 +0200
+
+    takmer
+
+commit 91be26370e1798fa39dbbba54f9880a1a6b12a48
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Mon May 30 09:51:23 2016 +0200
+
+    merge aktualit
+
+commit 18d18ef9a2aa13cd7cdb7585067dffc05e4d03ba
+Merge: 1ee0696 b59ccc2
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 09:50:36 2016 +0200
+
+    pridana stranka na zistenie IP adresy
+
+commit 1ee069651e6317ff89fa7b607bdac75ca80ebfc9
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Mon May 30 09:49:34 2016 +0200
+
+    pridana stranka na zistenie IP adresy
+
+commit 866e4819af3d6f907fc3a05bb5e56398ca7d247a
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Mon May 30 09:49:20 2016 +0200
+
+    pridanie dizajnu k popisu JSON RPC
+
+commit b59ccc235000660b5a01afe93f122493491034d8
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 09:32:46 2016 +0200
+
+    takmer
+
+commit af3179e506925cf05fcbd0ee6a7505afd9694c10
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 09:24:02 2016 +0200
+
+    takmer
+
+commit cce096a0b98b5c0132917722fae787aa112b922d
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 08:48:48 2016 +0200
+
+    takmer
+
+commit a1ea56088dae5fc4274238f4decf599608af283a
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 08:31:22 2016 +0200
+
+    takmer
+
+commit f31799d689ce23dea740afadeb63c1a5ce886a4e
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 08:26:54 2016 +0200
+
+    takmer hotovo
+
+commit 3e5196ff87167ac4b29f0420546197fec75bc3fa
+Author: Andrej <andrejzl@azet.sk>
+Date:   Mon May 30 08:22:28 2016 +0200
+
+    takmer hotovo
+
+commit ae0567d35a551a6677a4d938c44c603b5aa49261
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 23:17:25 2016 +0200
+
+    verejne rss
+
+commit 32f34a63776cc33035962717532f54c783a4fdfe
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 23:11:26 2016 +0200
+
+    opravena chyba s jazykom
+
+commit 62a2e639849715f23c52c10d195824b84abe3c01
+Merge: a19c48a 883f40e
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 23:10:21 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit a19c48a73c83983c0e0a18d6eae4e52324253f37
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 23:09:49 2016 +0200
+
+    aplikacia menu fix
+
+commit 1b03a8beb867b6595a7b8341c9e8c0829a747b19
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 23:05:51 2016 +0200
+
+    rss
+
+commit 883f40e10c9c61c83dad28a47d93d9c90ad277c3
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 22:49:45 2016 +0200
+
+    pridanie odkazu na RSS do aktualit
+
+commit ae1615e2d91fb27028846ba916b7439ec8cce8c1
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sun May 29 22:27:15 2016 +0200
+
+    Aktualizácia menu
+    	-pridanie grafického prepínania medzi stránkami
+
+commit e28eb4bebd20ec7b5303f9983b9e094480fed9fe
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 22:24:21 2016 +0200
+
+    opravena chyba s jazykom
+
+commit e6cd83d2c01ec3252e7b50403423773ca3b6f21a
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 21:52:13 2016 +0200
+
+    opravena chyba s jazykom
+
+commit e2b3e6966a03035d62cc72c7ebbcdb9e23936691
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 21:49:15 2016 +0200
+
+    opravena diakritika
+
+commit 6b5142c6747508adb106f33c7ddd0548d5dc3ba4
+Merge: 107dc22 d6850cd
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 21:44:39 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit d6850cdca0f144a226912a1048d4aca6a038ac28
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 21:43:45 2016 +0200
+
+    pridany rest do menu
+
+commit 3c8da4ca50754ecf0b48df0a515dad4a44a856c8
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 21:41:26 2016 +0200
+
+    rest service update style
+
+commit b8d6222712ca56d8e28faf89e32aed2fc1a64729
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sun May 29 21:28:40 2016 +0200
+
+    rest service
+
+commit 9763121b3d0d47edbbc37f33bb600d06856d067d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 20:30:16 2016 +0200
+
+    pridanie moznosti odhlasenia sa z odoberania noviniek
+
+commit 8d2b6e1433d63cad3cb65971a4064edc73596102
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sun May 29 20:03:02 2016 +0200
+
+    Aktualizované menu
+    	-pridaný odkaz na Kontakt
+    	-fixnutý bug s odkazom na Služby
+    Aktualizované stránky o knižnice pre menu
+    	-index.php
+    	-aplikacia.php
+    	-kontakt.php
+
+commit e868ed0b85e2a7d6d51457854809966957bd9a61
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 19:51:52 2016 +0200
+
+    uprava popisu JSON RPC, kniznic v aktualitach
+
+commit 3557e337591e0817e38f65975cb090cf050fd624
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sun May 29 19:37:12 2016 +0200
+
+    Aktualizované menu
+    	-pridaný odkaz na JSON RPC API
+    	-odstránenie redundantných nalinkovaných knižníc
+
+commit 643a51c88fc224d056ba99db30eba5762b131f0a
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 19:28:50 2016 +0200
+
+    Fix jazykov v novinkach
+
+commit 0a37451f1c858bc509db5b47497359d61f313218
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 19:17:32 2016 +0200
+
+    FIx aktualit
+
+commit 786008565d4764aa0f894411000aeb8a913e526e
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sun May 29 19:14:59 2016 +0200
+
+    pridane rozposielanie newsletterov, generovanie a overovanie API kluca pre JSON RPC, popis JSON RPC, generovanie PDF ako popis pre JSON RPC, pridanie suboru pre api kluce, kniznica pre generovanie pdf - pdfcrowd
+
+commit 107dc22ba6ffaf14f91bcb419db17d93e0aec07f
+Merge: 7ee7717 47781fa
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 16:22:38 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 47781fa407e1984a8185e0c001031d3f44eef9d3
+Merge: 8b15239 6ebfe4a
+Author: Andrej <andrejzl@azet.sk>
+Date:   Sun May 29 15:54:46 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 8b152395db59998373fb04bd94a6ecb75d2c33e1
+Author: Andrej <andrejzl@azet.sk>
+Date:   Sun May 29 15:53:49 2016 +0200
+
+    pana boha uz funguj
+
+commit 39021102743bced85829b4c77c48357414ea37fb
+Author: Andrej <andrejzl@azet.sk>
+Date:   Sun May 29 15:43:02 2016 +0200
+
+    kontakt stranka
+
+commit 7ee771787e4b4ea5a819ecac63224bddb511a6aa
+Merge: 839f117 6ebfe4a
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 13:09:23 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 839f117559808e6d2a9ce66c12ef60f16d82ffd5
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 13:08:44 2016 +0200
+
+    upraveny css styl v login.php
+
+commit 6ebfe4ab5cc9a6122a45b3dddae96e71497690c6
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sun May 29 12:53:06 2016 +0200
+
+    Aktualizované menu
+    	-pridané prepínanie prihláseného a odhláseného admina
+
+commit e2cff3e02ffaec6f6eac14c17a48e86028a5ee14
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sun May 29 12:03:30 2016 +0200
+
+    Aktualizovanie menu
+    	-odstránenie html tagov
+
+commit fdca872ad8cba994704a06532537f0bd25fb82bd
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sun May 29 00:11:31 2016 +0200
+
+    upravena aktuality stranka
+
+commit dc787e95f4424ff59a25b9ba510ce6a49c81ac29
+Merge: f6bb1e9 c424190
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 23:37:53 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit f6bb1e9a64392cbd908432240f48569961ec2dc4
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 23:20:12 2016 +0200
+
+    upravena aktuality.php + pridane obrazky
+
+commit c42419012cc2febf7073ae94f3df51891442a664
+Merge: 78ea11a 565ba19
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 23:10:12 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 78ea11a0ca24986a20f81c8c0d3bdc69f5eac0b0
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 23:07:25 2016 +0200
+
+    design aplikacie
+
+commit 565ba19ffae1f3b9cce4afa200f71bc41745861e
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 22:27:29 2016 +0200
+
+    upravena login stranka
+
+commit 37802feec5b3254eef7410da06d1c0823271bfdd
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 22:25:23 2016 +0200
+
+    upravena aktuality.php stranka
+
+commit a856c092921dd9cd6e5e6e2b1274e97624b7ab78
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 22:22:14 2016 +0200
+
+    pridane js subory
+
+commit be1646e3e7ae3bae82742a9c629a4b2fcfe238dc
+Merge: 287a615 603367f
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 22:19:53 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 603367f81c331ceb63cd7d705f87270dd88b4dcf
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 21:26:48 2016 +0200
+
+    pridanie aktuality.php2
+
+commit cd55ad5242e22cea92abd15b03b62d2e182c4aa2
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 21:26:03 2016 +0200
+
+    vymazanie aktuality.php2
+
+commit 313c37a45b5d90b06a8c28eafd24a734d2ad1c3d
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 21:23:58 2016 +0200
+
+    pridanie aktuality.php
+
+commit 85da4d080eb28730f54a6d440e86f5aab969ea44
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 21:22:55 2016 +0200
+
+    vymazanie aktuality.php
+
+commit 321a6ffe2b88fe5204850758740e7064fcabfe7d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sat May 28 20:52:44 2016 +0200
+
+    fix Aktualit
+
+commit e9c8f04a3a0bf0b8dff94ef4920ce8c861a84195
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 18:18:07 2016 +0200
+
+    fix aplikacie
+
+commit 8d6e0b3c03ac394441180b0974a89c93ec812eb0
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 18:11:03 2016 +0200
+
+    fix aplikacie
+
+commit 33727e4609cac5771712d03f7361544b102bd7e1
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 18:08:12 2016 +0200
+
+    fix aplikacie
+
+commit 94f49a226f5d128353d3ce7d2aa209e4f35ccd48
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 18:04:14 2016 +0200
+
+    fix aplikacie
+
+commit c67da7c64e96bf979a5937e468c301e8bada86f6
+Merge: f54b655 7b45cc3
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 18:03:20 2016 +0200
+
+    fix aplikacie
+
+commit 287a6156135edaa628249237444deeac186b94a3
+Merge: 30396f5 7b45cc3
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 17:38:54 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit f54b65566b6f33cb54f5293b1dc99037baa38d10
+Merge: f877051 9fb6f33
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 17:21:13 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit f87705161caf57431797e12e86f481ccd95996b4
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Sat May 28 17:20:34 2016 +0200
+
+    update aplikacie - aplikacia.php, canvasjs, app/maxima
+
+commit 7b45cc3f2c217da4dbf8f5e2d3a511b060d02c87
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sat May 28 17:13:54 2016 +0200
+
+    Aktualizovanie aplikacie aplikacia.php
+    	-pridanie menu
+    	-pridanie pozadia
+
+commit 9fb6f3355afa40cdeaadf8672cbad4fbdf4c2acf
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sat May 28 13:51:21 2016 +0200
+
+    upravenie dizajnu aktualit plus merge s adminovym pridavanim aktualit
+
+commit e4eb28620bcced30c39723f96691612a9663240a
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sat May 28 13:20:42 2016 +0200
+
+    Aktualizované menu
+    	-pridaný odkaz na login.php
+
+commit 04727e048666ece25107f1d081a5392e7d92aab9
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sat May 28 13:05:12 2016 +0200
+
+    Aktualizovaná hlavná stránka index.php
+    	-aktualizované pozadie
+
+commit 12889fc5ba5e4297c54925f2b6388aabff2280e1
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sat May 28 13:02:15 2016 +0200
+
+    pridanie sluzby JSON-RPC pre vypocet hodnot
+
+commit 30396f585f923d9e62a092f58bed940849446337
+Merge: d9626fc bf22c2d
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 12:59:54 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit d9626fc2eed249a3863b495f981b25b54dc2090b
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 12:57:02 2016 +0200
+
+    upravena aktuality stranka
+
+commit bf22c2da5e67efc85c07f189297a2dcbe1dcf22a
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Sat May 28 12:39:37 2016 +0200
+
+    Aktualizované menu
+    	-pridaný material design
+    	-úprava menu na statické
+    Aktualizovaná hlavná stránka
+    	-pridané nové pozadie
+
+commit a58e94fc5b199fd98d8147f80dbb34e98e1b1836
+Merge: f88757f b2b8da9
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sat May 28 12:33:12 2016 +0200
+
+    pridane pridavanie noviniek do databazy v dvoch jazykoch s vyuzitim Microsoft translatora, pridavanie vypisovanie noviniek z databazy FIX
+
+commit f88757f7ae683df49dd0593fd410e7ef1ae6f425
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Sat May 28 12:27:12 2016 +0200
+
+    pridane pridavanie noviniek do databazy v dvoch jazykoch s vyuzitim Microsoft translatora, pridavanie vypisovanie noviniek z databazy
+
+commit b2b8da9c4872618f9e2673ab7515522bc82b4e9e
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 11:53:36 2016 +0200
+
+    upravena aktuality stranka-moznost pridania aktuality adminom
+
+commit 5a7fe35f59f1a8b5698a13f4b381e7b62d61ec1b
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 11:40:10 2016 +0200
+
+    pridana logout stranka
+
+commit b094789d7c08816474885a14a62447eb7b26b7f0
+Author: martin <xdobrovodskym@stuba.sk>
+Date:   Sat May 28 11:39:14 2016 +0200
+
+    pridana login stranka
+
+commit 59cb5b2f1dadec40e61c136c31eb88fd1745e234
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Thu May 26 21:11:45 2016 +0200
+
+    pridany config
+
+commit c71d505daa3186375bc6c053bf2b4bf9147158eb
+Merge: 6f57a68 14af5d8
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Thu May 26 21:11:01 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 6f57a68f49132081a00bc3edaeb97b12ec07ed0a
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Thu May 26 21:10:43 2016 +0200
+
+    pridany config
+
+commit 14af5d8e87bbffc0b214fc317341ae0b25faae49
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Thu May 26 20:26:08 2016 +0200
+
+    Aktualizácia menu.php
+    	-pridané položky v dropdown menu časti Služby
+
+commit c5d7f28252d3936f7199dce3420fbf3c9a315181
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Thu May 26 19:53:22 2016 +0200
+
+    Fixnuty bug v subore index.php
+
+commit 4fd61b68a703e1643aa8e1720f72976328167a8f
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Thu May 26 19:43:42 2016 +0200
+
+    Aktualizácia menu.php
+    	-pridané prepínanie jazykov v menu
+    	-nastavené načítanie stringov z poľa
+    	-pridaný odkaz na aplikacia.php
+
+commit 8335b8c600bd9e15ff4d3998eb46601824109fd1
+Merge: 95e80e0 1aef828
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Thu May 26 19:36:55 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 1aef8289de0d81511cb9b338369c6c506d2723ee
+Merge: dcd00d7 f4e2a75
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Thu May 26 19:30:35 2016 +0200
+
+    dokoncenie verifikacie pomocou emailu
+
+commit f4e2a754df4ea39221f7e1818aabaa96f14940bd
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Thu May 26 19:44:10 2016 +0200
+
+    odstraneny subor files
+
+commit 95e80e0dbe642eba5e02b576f291e4128830c20e
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Thu May 26 19:12:12 2016 +0200
+
+    ez fix #1
+
+commit dcd00d75c1954ac037bece401b25de2cc962743f
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Thu May 26 18:36:53 2016 +0200
+
+    hotove odosielanie verifikacneho mailu a overenie emailu pre newslettery
+
+commit f26d689b78cba6669d86045b4b235ce8bcc64913
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Thu May 26 16:39:34 2016 +0200
+
+    kniznica phpChart
+
+commit 1fb82df61df59b1fd4b7de9aac6caa829bee5110
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Thu May 26 16:25:29 2016 +0200
+
+    aplikacia pre servisy-- octave
+
+commit dfbd8d200ae3177e01ff118d478166dcee1bf513
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Wed May 25 20:38:36 2016 +0200
+
+    Pridané jazykové rozhranie menu
+    	- Slovenčina
+    	- English
+    Aktualizované menu s odkazom na stránky
+    	- index.php
+    	- aktuality.php
+
+commit f284a312eef44e78de19868da3569fe46008823d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Wed May 25 19:24:59 2016 +0200
+
+    pridanie noveho fontu a zmena delenia stranky
+
+commit 65886a6bfe9eff7899b876b2bf4b1a7e9da2d2de
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Wed May 25 19:13:34 2016 +0200
+
+    -Pridané menu vrámci index.php
+    -Vytvorenie súboru style-menu.css
+
+commit a803b1616486d2d40248262db4cfb0271905b476
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Wed May 25 15:57:16 2016 +0200
+
+    Vytvorenie configu a stranky pre overenie
+
+commit 6e9643c2d72adf3670eca5e6cb6ff805e2ad8233
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Wed May 25 15:52:07 2016 +0200
+
+    Pridana funkcia posielania verifikacneho mailu v aktualitahc
+
+commit 593298e8370741fa4287fdb50f1efe938a7f5227
+Merge: 2ada828 e991e60
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Wed May 25 14:51:57 2016 +0200
+
+    pridanie stranky a css aktualit
+
+commit 2ada828707cb34d1ed168783aa765e778e1e3ae0
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Wed May 25 14:49:45 2016 +0200
+
+    pridanie stranky aktualit a css aktualit
+
+commit e991e60ac9ca8c4a10b510899804fee842a9ceb0
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Wed May 25 14:44:13 2016 +0200
+
+    Pridaný súbor test.txt
+
+commit 854d7c268c0949651387802936d449311ace7e78
+Merge: 487bc57 3e53a38
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Wed May 25 14:34:03 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 487bc57fd876ba43c58aabdf13d1412b21efc2b5
+Author: Ján Kanás <janokanas@gmail.com>
+Date:   Wed May 25 13:48:02 2016 +0200
+
+    Úprava súboru index.php
+
+commit 3e53a38dea2cfa1b113a3b335250d10ee47d1273
+Author: Andrej <andrejzl@azet.sk>
+Date:   Wed May 25 11:31:13 2016 +0200
+
+    Skusam ci ide
+
+commit 8139caf427e53cb3e42caff9ca7e2f979d0ab7da
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Wed May 25 11:30:58 2016 +0200
+
+    pozadie
+
+commit e203a645bef7b809b30f7338bb75d779d6c47b24
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Wed May 25 11:23:11 2016 +0200
+
+    uprava obrazka
+
+commit 72bd678f5d5e294b6465680ac5f6b50a066d396b
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Wed May 25 11:18:16 2016 +0200
+
+    zakldne subory
+
+commit e231073d91db48818612ae90a4161fd4576cc2e0
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 20:23:28 2016 +0200
+
+    le tak
+
+commit a5f3d361fbb5b90668719ac71473e2960ca936a3
+Merge: bf8b85a 12865c6
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 19:24:10 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit bf8b85a0969146f1ed485094a2575e1b682a4ed2
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 19:23:33 2016 +0200
+
+    h2 index.php
+
+commit 12865c6866ef61880ad5b942e73f3a375895150c
+Merge: 91d312b a098f2d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 19:19:21 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit 91d312b06f1f9fa0a4875bf142f1a16ebf4dd22d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 19:17:26 2016 +0200
+
+    Pridanie druhej funkcie
+
+commit a098f2d42cdf883cccc272efcd2043735f7252f1
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 19:10:25 2016 +0200
+
+    h1, title v index.php
+
+commit 40d89aad419c17a075a3957c38b82f4d9ac97b4d
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 19:07:03 2016 +0200
+
+    Pridana funkcia na scitanie
+
+commit 1f977d3b31af11cdfb28b3f5c1ff28307df5df65
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 19:05:27 2016 +0200
+
+    vlozeny index.php
+
+commit 057d85a5f37ca16bea5782f817d5d2db43dbd7c0
+Merge: 30262cd 2f130ce
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 18:46:22 2016 +0200
+
+    Hadam to uz pojde sakra
+
+commit 2f130ced2c3db909020f0a3109cd90e5fa2d020d
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 19:01:24 2016 +0200
+
+    readme.txt
+
+commit c709d0590a8173bb0ecd822da8043921190d04d6
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 18:48:17 2016 +0200
+
+    uprava readm.txt
+
+commit 30262cd92c290c6876261270eb3568e4830c5f25
+Merge: f7cfc39 c709d05
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 18:38:38 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git
+
+commit f7cfc39cffe31d282d9cb7ed2cb118b2cf6fd4d5
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 18:32:52 2016 +0200
+
+    Ak to teraz nepojde tak ja uz neviem
+
+commit b6e6c46711d9f2c03957323afaf41420cc5ca0a3
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 18:27:20 2016 +0200
+
+    Zmena readme
+
+commit 659e3d26baa09a4d624ddaafa16c8360168901b9
+Author: jakub <jakub.hunady@gmail.com>
+Date:   Tue May 24 18:19:58 2016 +0200
+
+    Bol zmeneny readme
+
+commit ba0d64fee7e8e5d23644bc8f96ea07f8d6ab2ef6
+Merge: d22aa12 21bf449
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 17:54:27 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit d22aa125c28eaf08f554c060a1874a19a911abe1
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 17:53:33 2016 +0200
+
+    removed xx.txt
+
+commit 923b8d15dd99867931b6c93770a7a97bf89223b2
+Author: Viktor Rybecky <rybeckyv@gmail.com>
+Date:   Tue May 24 17:34:38 2016 +0200
+
+    xx
+
+commit 21bf449d5a42175f42c89621350717e620da986d
+Merge: 64c806f 923b8d1
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 17:34:37 2016 +0200
+
+    Merge branch 'branch' of 147.175.98.229:public_html/git into branch
+
+commit 64c806f39aeb327750b2d07edaee1286c6877cca
+Author: Viktor Rybecký <rybeckyv@gmail.com>
+Date:   Tue May 24 17:02:59 2016 +0200
+
+    Prvy commit na svete :D

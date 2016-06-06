@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEST</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+  </head>
+  <body>
+	
+	<div class="row">
+	<div class="col-md-offset-1">
+		 <div class="page-header">
+ 		  <h1>Sociálna sieť | <small> kurz STI</small></h1>
+		  <a href="settings.html"><button class="btn btn-warning">Nastavenia</button></a>
+		 </div>
+		 <div class="col-md-2">
+		 	  <ul id="room_list" class="nav nav-pills nav-stacked">
+			  <li id="dash"><a href="#">Dashboard</a></li>
+  		 	  </ul>
+		 </div>
+  		 
+		 
+	<div  class="col-md-6">
+		<div class="panel panel-warning">
+  		 	<div class="panel-body">
+				<form id="postForm" >
+  					<div class="form-group">
+						<h3></h3>
+						<input id="postText" type="text" class="form-control" placeholder="Tvoj príspevok ..." value="">
+  					</div>
+					<button id="addPostButton" onclick="createPost()" type="submit" class="btn btn-warning">Odoslať</button>
+				</form>
+			  </div>
+		</div>
+		<div id="mainDash">
+			<div class="panel panel-warning">
+			 	  
+				  <div class="panel-heading">
+				  	   <div class="media">
+ 				   	   		<div class="media-left">
+                   				 <a href="#">
+      					   		 <img class="creatorAvatar" src="foto.jpg" width="40px" height="40px" alt="avatar">
+    							 </a>
+  				            </div>
+  				   	 		<div class="comment media-body">
+    			   	 			 <h4 class="creatorName media-heading"></h4>
+								 <p class="date"></p>
+					 	    </div>
+				  	   </div>
+				  </div>
+				  
+				  
+  			 	  <div class="panel-body">
+					   
+					   	<p class="postText">
+						</p>
+						<button class="add-like btn btn-warning btn-xs" type="button">
+  									<span class="countLikes badge">4</span>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> 
+					  </button>
+					  
+					  <button class="btn btn-warning btn-xs" type="button">
+  									<span class="countComment badge"></span>
+									<span class="glyphicon glyphicon-send" aria-hidden="true"></span> 
+					  </button>
+						
+				  </div>
+				  
+				  
+  				  <div class="panel-footer">
+				  	<div class="counts">
+					
+				      
+					</div>
+					
+					<div id="" class="post input-group input-group-sm">
+  				  	   <span class="input-group-addon" id="basic-addon1">
+					   		 <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+					   </span>
+					   <input type="text" class="commentText form-control" placeholder="Tvôj komentár ..." aria-describedby=\"basic-addon1\">
+					   <span class="input-group-btn">
+        					 <button class="commentButton btn btn-default" type="button">Komentovať</button>
+      				   </span>
+					</div>
+					
+				<div class="msg">
+				<br>
+					<div class="media">
+							<div class="media-left">
+								<a href="#">
+									<img class="commentImg media-object" src="" width="40px" height="40px" alt="Komentar"> 
+								</a>
+							</div>
+							<div class="media-body"> 
+								<h4 class="comment-autor media-heading"></h4> 
+								<p class="comment-text"></p>
+								<button class="add-comment-like btn btn-warning btn-xs" type="button">
+  									<span class="countCommentLikes badge">4</span>
+									<span class="glyphicon glyphicon-star" aria-hidden="true"></span> 
+								</button>
+							</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	</div>
+	</div>
+				
+		
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="kurzScript.js"></script>
+	
+
+  </body>
+</html>
+
