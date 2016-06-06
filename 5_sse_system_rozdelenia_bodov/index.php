@@ -4,7 +4,7 @@
 		<meta charset=utf-8>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<title>III. Zadanie WA</title>
+		<title>IV. Zadanie WA</title>
 
 		<?php include("config.php");
 			session_start();

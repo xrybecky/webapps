@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/dialog-style.css">
 		
 		
-		<title>III. Zadanie WA</title>
+		<title>IV. Zadanie WA</title>
 		
 		<?php include("config.php");
 			session_start();
